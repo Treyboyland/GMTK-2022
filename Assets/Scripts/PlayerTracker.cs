@@ -37,7 +37,7 @@ public class PlayerTracker : MonoBehaviour
             var newPos = Vector3.Lerp(start, playerOrbit.transform.position, elapsed / secondsToCatchup);
             newPos.z = transform.position.z;
             transform.position = newPos;
-            yield return null;
+            yield return new WaitForFixedUpdate();
         }
 
         var finalPos = playerOrbit.transform.position;
@@ -59,7 +59,7 @@ public class PlayerTracker : MonoBehaviour
                     var newPos = Vector3.Lerp(transform.position, playerOrbit.transform.position, progressStep);
                     newPos.z = transform.position.z;
                     transform.position = newPos;
-                    yield return null;
+                    yield return new WaitForFixedUpdate();
                 }
 
             }
