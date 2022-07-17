@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 084841ae9e11e074dabe558655b07365, type: 3}
+  m_Name: Triton 07
+  m_EditorClassIdentifier: 
+  itemName: Triton Log 5612-40
+  alien: {fileID: 11400000, guid: 48fab0a58b9050f44b5a6f590c63b488, type: 2}
+  order: 7
+  narrationText: 'UXT Triton Log 5612-40: A bright spot in the terrors of the Dark
+    Sea. I facilitated a Joining today between Biran Ta and Volta Lee. They have
+    chosen the name To''La Nur for themselves. The dance of their atoms was a sight
+    to behold. '

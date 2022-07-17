@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 084841ae9e11e074dabe558655b07365, type: 3}
+  m_Name: Ardkin 0
+  m_EditorClassIdentifier: 
+  itemName: 'Ardkin: Introduction'
+  alien: {fileID: 11400000, guid: 20f780471b2b8d141ba19ab8dea889f0, type: 2}
+  order: 0
+  narrationText: It has been many centuries in the making, but we are the first beings
+    from our star system to travel beyond its bounds. In these logs I hope to catalog
+    both a history of our people and our findings throughout space.

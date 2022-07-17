@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 084841ae9e11e074dabe558655b07365, type: 3}
+  m_Name: Triton 00
+  m_EditorClassIdentifier: 
+  itemName: Triton Log 704-10
+  alien: {fileID: 11400000, guid: 48fab0a58b9050f44b5a6f590c63b488, type: 2}
+  order: 0
+  narrationText: "UXT Triton Log 704-10: The old captain has stepped down finally
+    and appointed me as their replacement. I hope that I can be half the leader that
+    they were. Here's hoping that the rest of the crew approves.\r"

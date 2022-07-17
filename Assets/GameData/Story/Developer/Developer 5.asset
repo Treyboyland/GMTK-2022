@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 084841ae9e11e074dabe558655b07365, type: 3}
+  m_Name: Developer 5
+  m_EditorClassIdentifier: 
+  itemName: Dev 5
+  alien: {fileID: 11400000, guid: f960cd54e1102854db26f2f755834811, type: 2}
+  order: 5
+  narrationText: "Developer's Note: We\u2019ve got some good data here. I think I\u2019ll
+    leave this one for another 100 billion years before pulling the plug. I\u2019ve
+    already started work on 0.1.8; I want to take a crack at spherical space time
+    again.\r"

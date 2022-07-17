@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 084841ae9e11e074dabe558655b07365, type: 3}
+  m_Name: Ardkin 6
+  m_EditorClassIdentifier: 
+  itemName: 'Ardkin: Viewpoints'
+  alien: {fileID: 11400000, guid: 20f780471b2b8d141ba19ab8dea889f0, type: 2}
+  order: 6
+  narrationText: "Those who ventured to the Dry Lands in those ancestral times were
+    seen as either heroes or heretics depending on the account. Rescuing wayward
+    souls at the edge of god\u2019s sight, or attempting to disrupt god\u2019s punishment
+    for leaving in the first place.\r"

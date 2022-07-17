@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 084841ae9e11e074dabe558655b07365, type: 3}
+  m_Name: Ardkin 1
+  m_EditorClassIdentifier: 
+  itemName: 'Ardkin: Who We Are'
+  alien: {fileID: 11400000, guid: 20f780471b2b8d141ba19ab8dea889f0, type: 2}
+  order: 1
+  narrationText: "We call ourselves the Ardkin. Our species is one of peace, though
+    we were not always that way. Periods of intense bloodshed plague our past, like
+    an illness ravaging through the body. It is a miracle we did not drive ourselves
+    to extinction.\r"
