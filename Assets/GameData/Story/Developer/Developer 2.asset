@@ -17,5 +17,4 @@ MonoBehaviour:
   order: 2
   narrationText: "Developer's Note: Looks like something we did in this version led
     to the stars coalescing without collapsing into each other all the time. Not
-    sure what the solution was though. We didn\u2019t touch star generation in this
-    patch.\r"
+    sure what the solution was though. We didn't touch star generation in this patch.\r"

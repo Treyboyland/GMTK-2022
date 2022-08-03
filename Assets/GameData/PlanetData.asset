@@ -42,3 +42,33 @@ MonoBehaviour:
     m_Mode: 0
     m_NumColorKeys: 6
     m_NumAlphaKeys: 2
+  sourceMaterial: {fileID: 2100000, guid: 181f22d123128d94c9294d746823f011, type: 2}
+  surfaceSprites:
+  - {fileID: 21300000, guid: 659e91a9432b1a443a93872a10f3c01f, type: 3}
+  - {fileID: 21300000, guid: ac579ec2824d09a4fac65afc9917fb3f, type: 3}
+  - {fileID: 21300000, guid: dd8c9c617e4cb984b89486d09eafcf87, type: 3}
+  - {fileID: 21300000, guid: 2703026217e700a4faaa31ea8b42b23a, type: 3}
+  - {fileID: 21300000, guid: e3d60642aee6b5b46808eb1312790347, type: 3}
+  - {fileID: 21300000, guid: 255c48e205e69c14da11dc81dc1c31af, type: 3}
+  - {fileID: 21300000, guid: 08a9eef7d88ca914fb87b59843c485a5, type: 3}
+  - {fileID: 21300000, guid: d3d2fa9a0c19ecd4fb6920ff0b9cd8c2, type: 3}
+  - {fileID: 21300000, guid: a6f4cc942b587094585d0757079409e9, type: 3}
+  - {fileID: 21300000, guid: b80824414f29dbd408b593956b1250bc, type: 3}
+  - {fileID: 21300000, guid: 5149a32166a542b43bf1c098c47483dd, type: 3}
+  - {fileID: 21300000, guid: 997eefb8b30cbfa4d96c48e7e55a75eb, type: 3}
+  - {fileID: 21300000, guid: e8b24df4cb039e44391bc25bdfdfecd0, type: 3}
+  - {fileID: 21300000, guid: a0725dcaf5a80ae4789902ee34e49f5f, type: 3}
+  - {fileID: 21300000, guid: 383cf7fd2d2d9f74e8e0de64ca94ead5, type: 3}
+  - {fileID: 21300000, guid: f6cc6716854357341821155e0b6ef0f8, type: 3}
+  - {fileID: 21300000, guid: c0b7689942416474cae64e9e02541e1b, type: 3}
+  - {fileID: 21300000, guid: 4cb68dc6102a0554da6ef2bec6f15035, type: 3}
+  - {fileID: 21300000, guid: a473339382fa46d48937d19077d07534, type: 3}
+  - {fileID: 21300000, guid: 7e0b4d168aaba5a4f8ce4a6f8b9b5fa0, type: 3}
+  - {fileID: 21300000, guid: e7baebb0e3c93d940ab2f04fb63df870, type: 3}
+  - {fileID: 21300000, guid: 452249098c61c1f40adf52d36a3c6c27, type: 3}
+  - {fileID: 21300000, guid: bca6cec150822a54ca424bac17015fb7, type: 3}
+  - {fileID: 21300000, guid: 5bd9b82a35d27fa4cbebef9195ddd2c8, type: 3}
+  speedRange: {x: 0.1, y: 0.5}
+  spinCycles:
+  - {fileID: 9100000, guid: 3d991656970bd8b479911b32c6ed61ca, type: 2}
+  - {fileID: 22100000, guid: 7854d51fb74845644bdadd172d9d78b5, type: 2}

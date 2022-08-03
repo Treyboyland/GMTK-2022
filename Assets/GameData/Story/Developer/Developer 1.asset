@@ -16,6 +16,6 @@ MonoBehaviour:
   alien: {fileID: 11400000, guid: f960cd54e1102854db26f2f755834811, type: 2}
   order: 1
   narrationText: "Developer's Note: Turns out that changing the gravitational constant
-    didn\u2019t get rid of the black holes as we thought. Darn. On the plus side
-    though, they don\u2019t appear to be sentient this time around. I\u2019m not
-    a fan of regression bugs."
+    didn't get rid of the black holes as we thought. Darn. On the plus side though,
+    they don\u2019t appear to be sentient this time around. I'm not a fan of regression
+    bugs."

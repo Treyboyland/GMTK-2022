@@ -16,6 +16,6 @@ MonoBehaviour:
   alien: {fileID: 11400000, guid: f960cd54e1102854db26f2f755834811, type: 2}
   order: 6
   narrationText: "Developer's Note: Forgot to comment out some test code, and it
-    looks like there\u2019s a memory leak; space is filling out faster than it should.
+    looks like there's a memory leak; space is filling out faster than it should.
     Got to remember to double check before running this thing. Compilation times
     are a drag.\r"

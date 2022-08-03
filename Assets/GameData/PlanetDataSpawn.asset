@@ -42,3 +42,11 @@ MonoBehaviour:
     m_Mode: 0
     m_NumColorKeys: 6
     m_NumAlphaKeys: 2
+  sourceMaterial: {fileID: 2100000, guid: 181f22d123128d94c9294d746823f011, type: 2}
+  surfaceSprites:
+  - {fileID: 21300000, guid: 5bd9b82a35d27fa4cbebef9195ddd2c8, type: 3}
+  - {fileID: 21300000, guid: 659e91a9432b1a443a93872a10f3c01f, type: 3}
+  speedRange: {x: 0, y: 0.1}
+  spinCycles:
+  - {fileID: 22100000, guid: 7854d51fb74845644bdadd172d9d78b5, type: 2}
+  - {fileID: 9100000, guid: 3d991656970bd8b479911b32c6ed61ca, type: 2}

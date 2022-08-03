@@ -15,5 +15,5 @@ MonoBehaviour:
   itemName: A Black Hole
   alien: {fileID: 11400000, guid: 17b0d49e4e04f264f8f1bb15822f8171, type: 2}
   order: 4
-  narrationText: "You are able to watch as a black hole swallows the remnants of
-    a star. It\u2019s accretion disk stretches light years across."
+  narrationText: You are able to watch as a black hole swallows the remnants of a
+    star. Its accretion disk stretches light years across.

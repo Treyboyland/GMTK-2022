@@ -19,6 +19,12 @@ public class Planet : MonoBehaviour
     [SerializeField]
     string usedLayer;
 
+    [SerializeField]
+    PlanetSurface surface;
+
+    [SerializeField]
+    SpriteMask mask;
+
     public float Radius
     {
         get
@@ -27,11 +33,24 @@ public class Planet : MonoBehaviour
         }
     }
 
+    static int planetId = 0;
+
+    int currentId;
 
     private void OnEnable()
     {
         RandomizeSettings();
         gameObject.layer = LayerMask.NameToLayer(usedLayer);
+        currentId = planetId;
+        planetId = (planetId + 1) % int.MaxValue;
+        SetBounds();
+        surface.SetOrder(currentId);
+    }
+
+    void SetBounds()
+    {
+        mask.backSortingOrder = currentId;
+        mask.frontSortingOrder = currentId + 1;
     }
 
     void RandomizeSettings()
@@ -39,6 +58,7 @@ public class Planet : MonoBehaviour
         float scale = planetData.GetSize();
         transform.localScale = new Vector3(scale, scale, scale);
         planetSprite.color = planetData.GetColor();
+        surface.SetData(planetData);
     }
 
     public void EnableLayer()

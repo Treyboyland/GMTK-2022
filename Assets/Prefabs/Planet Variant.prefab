@@ -7,9 +7,13 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 7974460835191081184, guid: fafbb2fe69cc536479a84b2ff99e4258, type: 3}
+      propertyPath: planetData
+      value: 
+      objectReference: {fileID: 11400000, guid: 2b49f4639af47e74090e3ca0f51b68c7, type: 2}
     - target: {fileID: 7974460835191081188, guid: fafbb2fe69cc536479a84b2ff99e4258, type: 3}
       propertyPath: m_Name
-      value: Planet
+      value: Planet Variant
       objectReference: {fileID: 0}
     - target: {fileID: 7974460835191081189, guid: fafbb2fe69cc536479a84b2ff99e4258, type: 3}
       propertyPath: m_RootOrder
