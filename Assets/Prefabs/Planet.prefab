@@ -369,6 +369,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 7974460835191081188}
+  renderers:
+  - {fileID: 7974460835191081191}
+  - {fileID: 2358440408820919166}
+  - {fileID: 2692288745858141976}
+  - {fileID: 8832338946951718653}
 --- !u!1 &7974460835191081188
 GameObject:
   m_ObjectHideFlags: 0

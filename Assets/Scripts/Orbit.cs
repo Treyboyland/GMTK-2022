@@ -38,7 +38,7 @@ public class Orbit : MonoBehaviour
     [SerializeField]
     bool counterClockwise;
 
-    public bool CounterClockwise { get { return counterClockwise; } }
+    public bool CounterClockwise { get { return counterClockwise; } set { counterClockwise = value; } }
 
     float timeOutOfOrbit = 0;
 

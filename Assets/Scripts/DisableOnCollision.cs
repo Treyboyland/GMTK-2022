@@ -7,6 +7,9 @@ public class DisableOnCollision : MonoBehaviour
     [SerializeField]
     GameObject target;
 
+    [SerializeField]
+    List<SpriteRenderer> renderers;
+
     float creationTime;
 
 
@@ -14,6 +17,7 @@ public class DisableOnCollision : MonoBehaviour
     {
         transform.localPosition = Vector2.zero;
         creationTime = Time.realtimeSinceStartup;
+        StartCoroutine(WaitThenEnable());
     }
 
     private void OnCollisionEnter2D(Collision2D other)
@@ -38,5 +42,21 @@ public class DisableOnCollision : MonoBehaviour
     void DeactivateTarget()
     {
         target.SetActive(false);
+    }
+
+    IEnumerator WaitThenEnable()
+    {
+        foreach (var renderer in renderers)
+        {
+            renderer.enabled = false;
+        }
+
+        yield return new WaitForFixedUpdate();
+        yield return new WaitForFixedUpdate();
+
+        foreach (var render in renderers)
+        {
+            render.enabled = true;
+        }
     }
 }

@@ -33,6 +33,35 @@ public class PlayerShip : MonoBehaviour
 
     }
 
+    void CalculateOrbitRotation(Vector3 point)
+    {
+        bool xGreater = body.velocity.x > body.velocity.y;
+
+        if (xGreater)
+        {
+            bool counterClockwise = transform.position.y < point.y;
+
+            if (body.velocity.x < 0)
+            {
+                counterClockwise = !counterClockwise;
+            }
+
+            orbit.CounterClockwise = counterClockwise;
+        }
+        else
+        {
+            bool counterClockwise = transform.position.x > point.x;
+
+            if (body.velocity.y < 0)
+            {
+                counterClockwise = !counterClockwise;
+            }
+
+            orbit.CounterClockwise = counterClockwise;
+        }
+    }
+
+
     private void OnCollisionEnter2D(Collision2D other)
     {
         var planet = other.gameObject.GetComponent<Planet>();
@@ -44,6 +73,7 @@ public class PlayerShip : MonoBehaviour
             orbit.CurrentPlanet = planet;
             orbit.CurrentPlanet.DisableLayer();
             orbit.Target = planet.transform;
+            CalculateOrbitRotation(planet.transform.position);
             orbit.SetTimeClosestToPosition(other.GetContact(0).point);
             orbit.OrbitalRadius = planet.Radius;
             orbit.BeginOrbit = true;
@@ -58,7 +88,7 @@ public class PlayerShip : MonoBehaviour
         {
             return;
         }
-        
+
         GameManager.Manager.OnPlayerLaunch.Invoke();
         orbit.CurrentPlanet?.DisableLayer();
         orbit.CurrentPlanet?.EnableLayer();
